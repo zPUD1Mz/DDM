@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dia das Mães</title>
+    <style>
+        body {
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        #heartButton {
+            background-color: red;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            margin: 0 auto;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 50%;
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+            padding-top: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: black;">Dia das Mães</h1>
+    <button id="heartButton">Clique aqui</button>
+
+    <script>
+        var heartButton = document.getElementById("heartButton");
+        heartButton.addEventListener("click", function() {
+            alert("Feliz Dia das Mães para a mulher mais especial do mundo!");
+        });
+    </script>
+</body>
+</html>
+
